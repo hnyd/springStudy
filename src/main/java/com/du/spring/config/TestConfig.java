@@ -5,6 +5,7 @@ import com.du.spring.service.MagicExistsCondition;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Conditional;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
 
 /**
  * Created by hnyd1 on 2016/10/18.
@@ -19,5 +20,9 @@ public class TestConfig {
         return new MagicBean();
     }
 
+    @Bean
+    public PropertySourcesPlaceholderConfigurer placeholderConfigurer() {
+        return new PropertySourcesPlaceholderConfigurer();
+    }
 
 }

@@ -1,6 +1,6 @@
 package com.du.spring.entity;
 
-public class Juggler implements Performer {
+public class Juggler implements Performance {
 
 	private int beanBags = 3;
 	

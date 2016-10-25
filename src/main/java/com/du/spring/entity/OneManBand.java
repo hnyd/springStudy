@@ -3,7 +3,7 @@ package com.du.spring.entity;
 import java.util.Map;
 import java.util.Properties;
 
-public class OneManBand implements Performer {
+public class OneManBand implements Performance {
 
 //	private Collection<Instrument> instruments;
 	

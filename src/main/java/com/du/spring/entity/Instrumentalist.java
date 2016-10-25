@@ -1,6 +1,6 @@
 package com.du.spring.entity;
 
-public class Instrumentalist implements Performer {
+public class Instrumentalist implements Performance {
 
 	private String song;
 	
