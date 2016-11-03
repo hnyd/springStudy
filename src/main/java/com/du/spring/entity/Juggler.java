@@ -1,6 +1,8 @@
 package com.du.spring.entity;
 
-public class Juggler implements Performance {
+import com.du.spring.controller.PerformanceController;
+
+public class Juggler implements PerformanceController {
 
 	private int beanBags = 3;
 	

@@ -1,6 +1,8 @@
 package com.du.spring.entity;
 
-public class Instrumentalist implements Performance {
+import com.du.spring.controller.PerformanceController;
+
+public class Instrumentalist implements PerformanceController {
 
 	private String song;
 	

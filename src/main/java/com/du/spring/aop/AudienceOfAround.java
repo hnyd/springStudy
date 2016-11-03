@@ -12,7 +12,7 @@ import org.aspectj.lang.annotation.Pointcut;
 public class AudienceOfAround {
 
 
-    @Pointcut("execution(* com.du.spring.controller.Performance.perform(..))")
+    @Pointcut("execution(* com.du.spring.controller.PerformanceController.perform(..))")
     public void performance() {}
 
     @Around("performance()")

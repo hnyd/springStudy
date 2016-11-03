@@ -8,7 +8,7 @@ import org.aspectj.lang.annotation.*;
 @Aspect
 public class Audience {
 
-    @Pointcut("execution(* com.du.spring.controller.Performance.perform(..))")
+    @Pointcut("execution(* com.du.spring.controller.PerformanceController.perform(..))")
     public void performance() {}
 
     @Before("performance()")

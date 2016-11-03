@@ -1,9 +1,11 @@
 package com.du.spring.entity;
 
+import com.du.spring.controller.PerformanceController;
+
 import java.util.Map;
 import java.util.Properties;
 
-public class OneManBand implements Performance {
+public class OneManBand implements PerformanceController {
 
 //	private Collection<Instrument> instruments;
 	
